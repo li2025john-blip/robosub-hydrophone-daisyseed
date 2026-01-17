@@ -26,27 +26,24 @@ using namespace daisy::seed;
 // // Printing
 // constexpr int kPrintIntervalMs = 1;         // Print interval
 
-
-
-
 ////////////////////////////// Testing Configuration (WE CAN CHANGE)/////////////////////////////////////////
 // Hydrophone normalization (manually calibrate)
 const float hydrophone_0_max = 4.0f;
 const float hydrophone_1_max = 4.0f;
 
 // FFT
-constexpr size_t kFftSize = 64;             // Higher = better frequency resolution
-constexpr size_t kBlockSize = 64;             // Block size for audio processing
+constexpr size_t kFftSize = 64;   // Higher = better frequency resolution
+constexpr size_t kBlockSize = 64; // Block size for audio processing
 
 // RMS
-const float multiplier = 100;                  // Amplification of signal (per sample)
+const float multiplier = 100; // Amplification of signal (per sample)
 
 // Frequency Detection
-const float targetFrequency = 25000.0f;        // Target frequency to detect
-const float frequencyTolerance = 0.01f;       // Tolerance for frequency detection
+const float targetFrequency = 25000.0f; // Target frequency to detect
+const float frequencyTolerance = 0.01f; // Tolerance for frequency detection
 
 // Printing
-constexpr int kPrintIntervalMs = 1;         // Print interval
+constexpr int kPrintIntervalMs = 1; // Print interval
 
 ////////////////////////////// Internal Variables for Master (DO NOT CHANGE) ///////////////////////////////////
 // Hardware
@@ -67,7 +64,7 @@ static bool fft_ready_for_processing_1 = false;
 const float lowerFreq = targetFrequency * (1.0f - frequencyTolerance);
 const float upperFreq = targetFrequency * (1.0f + frequencyTolerance);
 
-// Latest raw magnitudes 
+// Latest raw magnitudes
 float detectedFrequencyLevel_0 = 0.0f;
 float detectedFrequencyLevel_1 = 0.0f;
 
@@ -81,17 +78,17 @@ float normalizedDetectedFrequencyLevel_1 = 0.0f;
 float normalizedDetectedFrequencyLevel_2 = 0.0f;
 float normalizedDetectedFrequencyLevel_3 = 0.0f;
 
-
 ////////////////////////////////////////// Setup and Loop //////////////////////////////////////////
 
-void MyCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size) {
+void MyCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
+{
     for (size_t i = 0; i < size; i++)
     {
         float sample_0 = in[0][i];
         float sample_1 = in[1][i];
-        
+
         // Amplify signals
-        float processedSample_0 = sample_0 * multiplier;  
+        float processedSample_0 = sample_0 * multiplier;
         float processedSample_1 = sample_1 * multiplier;
 
         // Fill the FFT buffers if ready for more data
@@ -175,7 +172,7 @@ int main(void)
         {
             detectedFrequencyLevel_1 = hydrophone_1_max;
         }
-        
+
         // Normalize detected frequency levels
         normalizedDetectedFrequencyLevel_0 = detectedFrequencyLevel_0 / hydrophone_0_max;
         normalizedDetectedFrequencyLevel_1 = detectedFrequencyLevel_1 / hydrophone_1_max;
@@ -192,13 +189,13 @@ int main(void)
             // hw.PrintLine("Raw Mic0: " FLT_FMT3 " Raw Mic1: " FLT_FMT3,
             //             FLT_VAR3(detectedFrequencyLevel_0),
             //             FLT_VAR3(detectedFrequencyLevel_1));
-        
+
             hw.PrintLine("hydrophone_log: Mic0 reads" FLT_FMT3 " Mic1 reads" FLT_FMT3 " Mic2 reads" FLT_FMT3 " Mic3 reads" FLT_FMT3,
-                        FLT_VAR3(normalizedDetectedFrequencyLevel_0),
-                        FLT_VAR3(normalizedDetectedFrequencyLevel_1),
-                        FLT_VAR3(normalizedDetectedFrequencyLevel_2),
-                        FLT_VAR3(normalizedDetectedFrequencyLevel_3));
+                         FLT_VAR3(normalizedDetectedFrequencyLevel_0),
+                         FLT_VAR3(normalizedDetectedFrequencyLevel_1),
+                         FLT_VAR3(normalizedDetectedFrequencyLevel_2),
+                         FLT_VAR3(normalizedDetectedFrequencyLevel_3));
             lastPrintTime = currentTime;
         }
     }
-} 
+}
