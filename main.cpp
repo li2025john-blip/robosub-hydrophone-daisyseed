@@ -1,86 +1,86 @@
-// main.cpp
-// 1. ---- INCLUDES ----
 #include "daisy_seed.h"
 #include "library/fft_library.h"
 
-// 2. ---- NAMESPACE ----
 using namespace daisy;
 
-// 3. ---- GLOBAL OBJECTS ----
 DaisySeed hw;
-// DECLARE A POINTER to an FFTLibrary object, but don't create it yet.
-// Initialize to nullptr for safety.
 FFTLibrary *fft = nullptr;
 
-// ... (Constants are the same) ...
+// Constants
 const float MARK_FREQ = 2200.0f;
 const float SPACE_FREQ = 1200.0f;
 const float FREQ_THRESHOLD = 1700.0f;
 const size_t FFT_SIZE = 1024;
 
-void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size);
+// ---- GLOBAL SHARED VARIABLES ----
+// "volatile" tells the compiler these change at any time (interrupts)
+volatile float g_current_freq = 0.0f;
+volatile float g_current_sample = 0.0f;
 
-// 6. ---- MAIN FUNCTION ----
+void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
+{
+    // 1. ANALYZE (Fast!)
+    // Detect pitch and store it in the global variable for the main loop to see
+    if (fft != nullptr)
+    {
+        g_current_freq = fft->detectPitch(in[0], size);
+        g_current_sample = in[0][0];
+    }
+
+    // 2. PASSTHROUGH AUDIO
+    for (size_t i = 0; i < size; i++)
+    {
+        out[0][i] = in[0][i];
+        out[1][i] = in[0][i];
+    }
+}
+
 int main(void)
 {
-    // A. Initialize the Daisy Seed hardware. THIS IS NOW DONE FIRST.
+    // A. Initialize Hardware
     hw.Init();
 
-    // B. Start serial communication.
+    // B. Start Serial
     hw.StartLog(false);
-    hw.PrintLine("FSK Decoder Initialized...");
 
-    // C. Configure the Audio.
+    // Give serial a moment to initialize
+    System::Delay(500);
+
+    hw.PrintLine("FSK Decoder Initialized! Serial Ready.");
+
+    // C. Configure Audio
     hw.SetAudioSampleRate(SaiHandle::Config::SampleRate::SAI_48KHZ);
     hw.SetAudioBlockSize(FFT_SIZE);
 
-    // D. Now that hardware is initialized and configured,
-    //    CREATE the FFTLibrary object on the heap.
+    // D. Initialize FFT
     fft = new FFTLibrary(hw.AudioSampleRate());
 
-    // Print the rest of the info
-    hw.PrintLine("FFT Size: %d", FFT_SIZE);
-    hw.PrintLine("Mark Freq: %.2f Hz", MARK_FREQ);
-    // ... etc.
-
-    // F. Start the audio processing.
+    hw.PrintLine("Starting Audio...");
     hw.StartAudio(AudioCallback);
 
-    // G. The main loop.
-    // while (1)
-    // {
-    // }
-}
-
-// Place this implementation after your main() function.
-void AudioCallback(AudioHandle::InputBuffer in, AudioHandle::OutputBuffer out, size_t size)
-{
-    static int print_counter = 0;
-
-    // Use the arrow operator '->' because 'fft' is now a pointer.
-    float detected_frequency = fft->detectPitch(in[0], size);
-
-    // Check if it's time to print (let's use a better rate-limiting scheme)
-    if (print_counter++ > 20)
+    // E. Main Loop (Where we print)
+    while (1)
     {
-        print_counter = 0;
+        // 1. Grab the latest values from the global variables
+        float freq = g_current_freq;
+        float samp = g_current_sample;
 
-        hw.Print("Freq: %.2f Hz -> ", detected_frequency);
+        // 2. Logic & Printing (Safe to do here)
+        hw.Print("Sample: %.4f | Freq: %.2f Hz -> ", samp, freq);
 
-        if (detected_frequency > 500.0f)
+        if (freq > 500.0f)
         {
-            if (detected_frequency > FREQ_THRESHOLD)
-            {
-                hw.PrintLine("1");
-            }
+            if (freq > FREQ_THRESHOLD)
+                hw.PrintLine("[MARK] 1");
             else
-            {
-                hw.PrintLine("0");
-            }
+                hw.PrintLine("[SPACE] 0");
         }
         else
         {
-            hw.PrintLine("- (Silence)");
+            hw.PrintLine("[SILENCE]");
         }
+
+        // 3. Delay to make the text readable (updates 5 times a second)
+        System::Delay(200);
     }
 }

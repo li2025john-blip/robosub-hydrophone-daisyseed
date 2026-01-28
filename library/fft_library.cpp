@@ -1,10 +1,16 @@
 #include "fft_library.h"
 #include <cmath>
+#include <complex>
+
+// Define M_PI if not available in the C++ standard library
+#ifndef M_PI
+#define M_PI 3.14159265358979323846f
+#endif
 
 FFTLibrary::FFTLibrary(float sampleRate) : m_sampleRate(sampleRate) {}
 
 // Helper function for parabolic interpolation
-float FFTLibrary::findInterpolatedFrequency(const std::vector<std::complex<float>>& fft_data, float sample_rate)
+float FFTLibrary::findInterpolatedFrequency(const std::vector<std::complex<float>> &fft_data, float sample_rate)
 {
     const size_t N = fft_data.size();
     float max_mag = 0.0f;
@@ -12,7 +18,7 @@ float FFTLibrary::findInterpolatedFrequency(const std::vector<std::complex<float
 
     // Find the index with the highest magnitude in the first half of the FFT output
     for (size_t i = 1; i < N / 2 - 1; ++i)
-    { 
+    {
         float magnitude = std::norm(fft_data[i]);
 
         // Avoid boundary issues
@@ -36,9 +42,10 @@ float FFTLibrary::findInterpolatedFrequency(const std::vector<std::complex<float
 
     // Parabolic interpolation formula to find the shift from the bin's center frequency
     float peak_shift = 0.5f * (mag0 - mag2) / (mag0 - 2.0f * mag1 + mag2);
-    
+
     // If the denominator is zero, return the non-interpolated freq.
-    if (std::isnan(peak_shift)) {
+    if (std::isnan(peak_shift))
+    {
         return (float)max_index * sample_rate / N;
     }
 
@@ -49,7 +56,7 @@ float FFTLibrary::findInterpolatedFrequency(const std::vector<std::complex<float
 }
 
 // Apply Hanning window
-void FFTLibrary::applyHanningWindow(std::vector<std::complex<float>>& signal)
+void FFTLibrary::applyHanningWindow(std::vector<std::complex<float>> &signal)
 {
     const size_t N = signal.size();
     for (size_t i = 0; i < N; ++i)
@@ -60,7 +67,7 @@ void FFTLibrary::applyHanningWindow(std::vector<std::complex<float>>& signal)
 }
 
 // Recursive Cooley-Tukey Radix-2 FFT implementation.
-void FFTLibrary::fft(std::vector<std::complex<float>>& signal)
+void FFTLibrary::fft(std::vector<std::complex<float>> &signal)
 {
     const size_t N = signal.size();
     if (N <= 1)
@@ -72,7 +79,7 @@ void FFTLibrary::fft(std::vector<std::complex<float>>& signal)
     for (size_t i = 0; i < N / 2; ++i)
     {
         even[i] = signal[2 * i];
-        odd[i]  = signal[2 * i + 1];
+        odd[i] = signal[2 * i + 1];
     }
 
     // Recurse
@@ -83,13 +90,13 @@ void FFTLibrary::fft(std::vector<std::complex<float>>& signal)
     for (size_t k = 0; k < N / 2; ++k)
     {
         std::complex<float> t = std::polar(1.0f, (float)(-2.0 * M_PI * k / N)) * odd[k];
-        signal[k]           = even[k] + t;
-        signal[k + N / 2]   = even[k] - t;
+        signal[k] = even[k] + t;
+        signal[k + N / 2] = even[k] - t;
     }
 }
 
 // Pitch detection function
-float FFTLibrary::detectPitch(const float* audio_buffer, size_t buffer_size)
+float FFTLibrary::detectPitch(const float *audio_buffer, size_t buffer_size)
 {
     // Create a complex vector for the FFT
     std::vector<std::complex<float>> fftSignal(buffer_size, {0.0f, 0.0f});
@@ -102,13 +109,13 @@ float FFTLibrary::detectPitch(const float* audio_buffer, size_t buffer_size)
 
     applyHanningWindow(fftSignal);
     fft(fftSignal);
-    
+
     // Find the fundamental frequency using interpolation
     return findInterpolatedFrequency(fftSignal, m_sampleRate);
 }
 
 // Level detection function - get magnitude at specific frequency with tolerance
-float FFTLibrary::getFrequencyMagnitude(const float* audio_buffer, size_t buffer_size, float target_freq, float tolerance)
+float FFTLibrary::getFrequencyMagnitude(const float *audio_buffer, size_t buffer_size, float target_freq, float tolerance)
 {
     // Create a complex vector for the FFT
     std::vector<std::complex<float>> fftSignal(buffer_size, {0.0f, 0.0f});
@@ -121,15 +128,15 @@ float FFTLibrary::getFrequencyMagnitude(const float* audio_buffer, size_t buffer
 
     applyHanningWindow(fftSignal);
     fft(fftSignal);
-    
+
     // Calculate frequency bounds with tolerance
     float lower_freq = target_freq * (1.0f - tolerance);
     float upper_freq = target_freq * (1.0f + tolerance);
-    
+
     // Calculate bin indices for the frequency range
     size_t lower_bin = (size_t)(lower_freq * buffer_size / m_sampleRate);
     size_t upper_bin = (size_t)(upper_freq * buffer_size / m_sampleRate);
-    
+
     // Ensure we're within valid range (first half of FFT)
     if (lower_bin >= buffer_size / 2)
     {
@@ -139,7 +146,7 @@ float FFTLibrary::getFrequencyMagnitude(const float* audio_buffer, size_t buffer
     {
         upper_bin = buffer_size / 2 - 1;
     }
-    
+
     // Sum the magnitudes within the frequency range
     float total_magnitude = 0.0f;
     for (size_t bin = lower_bin; bin <= upper_bin; ++bin)
@@ -147,6 +154,6 @@ float FFTLibrary::getFrequencyMagnitude(const float* audio_buffer, size_t buffer
         float magnitude = std::sqrt(std::norm(fftSignal[bin]));
         total_magnitude += magnitude;
     }
-    
+
     return total_magnitude;
-} 
+}

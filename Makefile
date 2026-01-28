@@ -1,5 +1,5 @@
 # Program Selection
-CURRENT_PROGRAM = master_level
+CURRENT_PROGRAM = fsk_demodulator
 
 # Project Name
 TARGET = $(CURRENT_PROGRAM)

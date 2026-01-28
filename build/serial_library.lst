@@ -1,4 +1,4 @@
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   27:library/serial_library.cpp **** 
   28:library/serial_library.cpp **** int SerialLibrary::GetChar() {
   29:library/serial_library.cpp ****     if (msg_fifo_.IsEmpty()) {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 2
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 2
 
 
   30:library/serial_library.cpp ****         return 0;
@@ -118,7 +118,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   77:library/serial_library.cpp ****     if (instance_ && buff && length) {
   35              		.loc 1 77 66 is_stmt 0 view .LVU2
   36 0000 F0B5     		push	{r4, r5, r6, r7, lr}
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 3
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 3
 
 
   37              		.cfi_def_cfa_offset 20
@@ -178,7 +178,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   16:./libDaisy//src/util/FIFO.h ****     {
   17:./libDaisy//src/util/FIFO.h ****     }
   18:./libDaisy//src/util/FIFO.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 4
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 4
 
 
   19:./libDaisy//src/util/FIFO.h ****     FIFOBase(T* buffer, size_t bufferSize, std::initializer_list<T> valuesToAdd)
@@ -238,7 +238,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   69:./libDaisy//src/util/FIFO.h **** 
   70:./libDaisy//src/util/FIFO.h ****             PushBack(v);
   71:./libDaisy//src/util/FIFO.h ****             numAdded++;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 5
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 5
 
 
   72:./libDaisy//src/util/FIFO.h ****         }
@@ -298,7 +298,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  126:./libDaisy//src/util/FIFO.h ****     {
  127:./libDaisy//src/util/FIFO.h ****         if(IsEmpty())
  128:./libDaisy//src/util/FIFO.h ****             // invalid, but better not pass a temporary T() object as a reference...
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 6
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 6
 
 
  129:./libDaisy//src/util/FIFO.h ****             return buffer_[0];
@@ -358,7 +358,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   84 0018 9D68     		ldr	r5, [r3, #8]
  173:./libDaisy//src/util/FIFO.h ****         if(numElements < 0)
   85              		.loc 2 173 41 view .LVU15
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 7
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 7
 
 
   86 001a D3E90342 		ldrd	r4, r2, [r3, #12]
@@ -418,7 +418,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  129 0040 A242     		cmp	r2, r4
   55:./libDaisy//src/util/FIFO.h ****             return true;
  130              		.loc 2 55 27 view .LVU29
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 8
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 8
 
 
  131 0042 A2EB0402 		sub	r2, r2, r4
@@ -478,7 +478,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
    4:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** //
    5:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** // This file is part of the GNU ISO C++ Library.  This library is free
    6:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** // software; you can redistribute it and/or modify it under the
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 9
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 9
 
 
    7:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** // terms of the GNU General Public License as published by the
@@ -538,7 +538,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   61:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc ****       if (this == &__s)
   62:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	return;
   63:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 10
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 10
 
 
   64:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc ****       _Alloc_traits::_S_on_swap(_M_get_allocator(), __s._M_get_allocator());
@@ -598,7 +598,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  118:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	      _M_data(__s._M_data());
  119:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	      __s._M_data(__tmp_ptr);
  120:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	      _M_capacity(__s._M_allocated_capacity);
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 11
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 11
 
 
  121:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	    }
@@ -658,7 +658,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  175:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 
  176:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	__try
  177:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	  {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 12
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 12
 
 
  178:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	    while (__beg != __end)
@@ -718,7 +718,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  193              	.LVL11:
  194              	.LBB520:
  195              	.LBI520:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 13
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 13
 
 
  196              		.file 4 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base
@@ -778,7 +778,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   54:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h ****  *
   55:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h ****  *  This file contains all of the general iterator-related utility
   56:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h ****  *  functions, such as distance() and advance().
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 14
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 14
 
 
   57:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h ****  */
@@ -838,7 +838,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  111:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h ****     __distance(_GLIBCXX_STD_C::_List_iterator<_Tp>,
  112:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h **** 	       _GLIBCXX_STD_C::_List_iterator<_Tp>,
  113:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h **** 	       input_iterator_tag);
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 15
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 15
 
 
  114:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_funcs.h **** 
@@ -898,7 +898,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
    1:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** // Components for manipulating sequences of characters -*- C++ -*-
    2:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
    3:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** // Copyright (C) 1997-2020 Free Software Foundation, Inc.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 16
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 16
 
 
    4:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** //
@@ -958,7 +958,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   58:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #elif __cplusplus >= 201703L
   59:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** // Support P0426R1 changes to char_traits in C++17.
   60:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** # define __cpp_lib_constexpr_string 201611L
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 17
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 17
 
 
   61:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #elif __cplusplus > 201703L
@@ -1018,7 +1018,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  115:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #else
  116:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       typedef const_iterator __const_iterator;
  117:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 18
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 18
 
 
  118:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -1078,7 +1078,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  172:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       };
  173:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  174:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _Alloc_hider	_M_dataplus;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 19
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 19
 
 
  175:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       size_type		_M_string_length;
@@ -1138,7 +1138,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  224:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_M_length(__n);
  225:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	traits_type::assign(_M_data()[__n], _CharT());
  226:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 20
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 20
 
 
  227:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -1198,7 +1198,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  281:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 		     std::input_iterator_tag);
  282:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  283:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // For forward_iterators up to random_access_iterators, used for
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 21
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 21
 
 
  284:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // string::iterator, _CharT*, etc.
@@ -1258,7 +1258,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  338:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
  339:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	const bool __testoff =  __off < this->size() - __pos;
  340:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return __testoff ? __off : this->size() - __pos;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 22
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 22
 
 
  341:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
@@ -1318,7 +1318,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  378:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
  379:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  380:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // _S_copy_chars is a separate template to permit specialization
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 23
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 23
 
 
  381:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // to optimize for the common case of pointers as iterators.
@@ -1378,7 +1378,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   22:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** // see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see
   23:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** // <http://www.gnu.org/licenses/>.
   24:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 24
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 24
 
 
   25:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** /** @file bits/char_traits.h
@@ -1438,7 +1438,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   79:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  right, but the int_type and state_type typedefs, and the eof()
   80:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  member function, are likely to be wrong.)  The reason this class
   81:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  exists is so users can specialize it.  Classes in namespace std
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 25
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 25
 
 
   82:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  may not be specialized for fundamental types, but classes in
@@ -1498,7 +1498,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  136:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       to_int_type(const char_type& __c)
  137:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       { return static_cast<int_type>(__c); }
  138:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 26
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 26
 
 
  139:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       static _GLIBCXX_CONSTEXPR bool
@@ -1558,7 +1558,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  193:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       if (__n == 0)
  194:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** 	return __s1;
  195:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** #ifdef __cpp_lib_is_constant_evaluated
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 27
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 27
 
 
  196:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       if (std::is_constant_evaluated())
@@ -1618,7 +1618,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  250:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  string are known at compile time.
  251:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  @param  __s  The string.
  252:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 28
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 28
 
 
  253:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  Assumes that _CharT is a built-in character type.
@@ -1678,7 +1678,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  307:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****    *  types. Also, check out include/ext/pod_char_traits.h.
  308:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****   */
  309:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****   template<class _CharT>
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 29
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 29
 
 
  310:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****     struct char_traits : public __gnu_cxx::char_traits<_CharT>
@@ -1738,7 +1738,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  231:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 
  232:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 	_M_set_length(__dnew);
  269              		.loc 3 232 15 view .LVU56
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 30
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 30
 
 
  270 0020 019C     		ldr	r4, [sp, #4]
@@ -1798,7 +1798,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  315              		.cfi_def_cfa_offset 16
  316              		@ sp needed
  317 002a 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 31
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 31
 
 
  318              	.LVL18:
@@ -1858,7 +1858,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  372:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       }
  373:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h **** 
  374:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       static _GLIBCXX17_CONSTEXPR const char_type*
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 32
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 32
 
 
  375:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/char_traits.h ****       find(const char_type* __s, size_t __n, const char_type& __a)
@@ -1918,7 +1918,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  351              	.LBE554:
  352              	.LBE569:
  353              	.LBB570:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 33
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 33
 
 
  354              	.LBB560:
@@ -1978,7 +1978,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  396 003e FFF7FEFF 		bl	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
  397              	.LVL26:
  398              	.LBB586:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 34
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 34
 
 
  399              	.LBB587:
@@ -2038,7 +2038,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  441              	.LBE593:
  442              	.LBB594:
  443              	.LBB588:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 35
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 35
 
 
  219:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -2098,7 +2098,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  190:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { _M_string_length = __length; }
  486              		.loc 5 190 7 view .LVU112
  487              	.LBE574:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 36
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 36
 
 
  488              	.LBB575:
@@ -2158,7 +2158,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  531 0060 FFF7FEFF 		bl	_ZSt19__throw_logic_errorPKc
  532              	.LVL36:
  533              	.L49:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 37
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 37
 
 
  212:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.tcc **** 				       "_M_construct null not valid"));
@@ -2218,7 +2218,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  179:./libDaisy//src/util/FIFO.h ****     /** inserts an element "idx" positions behind the first element and returns true if successful 
  180:./libDaisy//src/util/FIFO.h ****     bool Insert(size_t idx, const T& element)
  181:./libDaisy//src/util/FIFO.h ****     {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 38
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 38
 
 
  182:./libDaisy//src/util/FIFO.h ****         if(idx > GetNumElements())
@@ -2278,7 +2278,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  236:./libDaisy//src/util/FIFO.h ****         elements that were removed. */
  237:./libDaisy//src/util/FIFO.h ****     size_t RemoveAllEqualTo(const T& element)
  238:./libDaisy//src/util/FIFO.h ****     {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 39
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 39
 
 
  239:./libDaisy//src/util/FIFO.h ****         size_t numRemoved = 0;
@@ -2338,7 +2338,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  293:./libDaisy//src/util/FIFO.h ****     size_t       bufferOut_;
  294:./libDaisy//src/util/FIFO.h **** };
  295:./libDaisy//src/util/FIFO.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 40
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 40
 
 
  296:./libDaisy//src/util/FIFO.h **** /** A simple FIFO ring buffer with a fixed size. */
@@ -2398,7 +2398,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  622              	.LBB657:
   15:./libDaisy//src/util/FIFO.h ****     {
  623              		.loc 2 15 75 view .LVU138
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 41
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 41
 
 
  624 001a 4460     		str	r4, [r0, #4]
@@ -2458,7 +2458,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  672              	.LBE701:
  673              	.LBB702:
  674              	.LBI702:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 42
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 42
 
 
  675              		.file 7 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h"
@@ -2518,7 +2518,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   54:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** namespace std _GLIBCXX_VISIBILITY(default)
   55:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** {
   56:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** _GLIBCXX_BEGIN_NAMESPACE_VERSION
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 43
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 43
 
 
   57:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** 
@@ -2578,7 +2578,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  111:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** 	construct(_Up* __p, _Args&&... __args)
  112:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** 	noexcept(std::is_nothrow_constructible<_Up, _Args...>::value)
  113:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** 	{ ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 44
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 44
 
 
  114:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h **** 
@@ -2638,7 +2638,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  679              		.file 8 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h"
    1:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h **** // Allocator that wraps operator new -*- C++ -*-
    2:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 45
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 45
 
 
    3:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h **** // Copyright (C) 2001-2020 Free Software Foundation, Inc.
@@ -2698,7 +2698,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   57:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****     public:
   58:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****       typedef _Tp        value_type;
   59:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****       typedef std::size_t     size_type;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 46
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 46
 
 
   60:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****       typedef std::ptrdiff_t  difference_type;
@@ -2758,7 +2758,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  429:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _M_erase(size_type __pos, size_type __n);
  430:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  431:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****     public:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 47
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 47
 
 
  432:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // Construct/copy/destroy:
@@ -2818,7 +2818,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  486:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       : _M_dataplus(_M_local_data())
  487:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
  488:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	const _CharT* __start = __str._M_data()
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 48
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 48
 
 
  489:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  + __str._M_check(__pos, "basic_string::basic_string");
@@ -2878,7 +2878,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  693              	.LBI671:
  164:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	: allocator_type(__a), _M_p(__dat) { }
  694              		.loc 5 164 2 is_stmt 1 view .LVU151
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 49
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 49
 
 
  695              	.LBB675:
@@ -2938,7 +2938,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  737              	.LBI680:
  190:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { _M_string_length = __length; }
  738              		.loc 5 190 7 view .LVU161
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 50
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 50
 
 
  190:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { _M_string_length = __length; }
@@ -2998,7 +2998,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  765              		.loc 1 8 1 is_stmt 0 view .LVU170
  766 002c 7047     		bx	lr
  767              	.L53:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 51
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 51
 
 
  768 002e 00BF     		.align	2
@@ -3058,7 +3058,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  538:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  : reinterpret_cast<const _CharT*>(__alignof__(_CharT));
  539:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_M_construct(__s, __end, random_access_iterator_tag());
  540:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 52
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 52
 
 
  541:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -3118,7 +3118,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  595:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  596:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       basic_string(const basic_string& __str, const _Alloc& __a)
  597:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       : _M_dataplus(_M_local_data(), __a)
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 53
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 53
 
 
  598:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { _M_construct(__str.begin(), __str.end()); }
@@ -3178,7 +3178,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  652:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	basic_string(const _Tp& __t, size_type __pos, size_type __n,
  653:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 		     const _Alloc& __a = _Alloc())
  654:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	: basic_string(_S_to_string_view(__t).substr(__pos, __n), __a) { }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 54
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 54
 
 
  655:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -3238,7 +3238,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  843              	.LVL45:
  844              	.LBB741:
  845              	.LBI741:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 55
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 55
 
 
  244:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { _Alloc_traits::deallocate(_M_get_allocator(), _M_data(), __size + 1); }
@@ -3298,7 +3298,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   49:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****   {
   50:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****     template<typename _Tp, typename _Up, typename = void>
   51:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****       struct __rebind : __replace_first_arg<_Tp, _Up> { };
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 56
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 56
 
 
   52:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 
@@ -3358,7 +3358,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  106:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	};
  107:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 
  108:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****       template<template<typename> class _Func, typename _Tp>
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 57
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 57
 
 
  109:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	struct _Ptr<_Func, _Tp, __void_t<_Func<_Alloc>>>
@@ -3418,7 +3418,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  163:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 
  164:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****       /**
  165:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        * @brief   The allocator's size type
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 58
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 58
 
 
  166:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *
@@ -3478,7 +3478,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  220:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****       template<typename _Alloc2>
  221:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	static constexpr pointer
  222:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	_S_allocate(_Alloc2& __a, size_type __n, const_void_pointer, ...)
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 59
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 59
 
 
  223:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	{ return __a.allocate(__n); }
@@ -3538,7 +3538,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  277:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	static constexpr auto
  278:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	_S_max_size(_Alloc2& __a, int)
  279:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	-> decltype(__a.max_size())
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 60
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 60
 
 
  280:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	{ return __a.max_size(); }
@@ -3598,7 +3598,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  334:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *  @param  __p  Pointer to the memory to deallocate.
  335:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *  @param  __n  The number of objects space was allocated for.
  336:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 61
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 61
 
 
  337:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *  Calls <tt> a.deallocate(p, n) </tt>
@@ -3658,7 +3658,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  391:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *  @return @c __rhs.select_on_container_copy_construction() or @a __rhs
  392:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *
  393:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *  Returns @c __rhs.select_on_container_copy_construction() if that
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 62
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 62
 
 
  394:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****        *  expression is well-formed, otherwise returns @a __rhs
@@ -3718,7 +3718,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  448:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****       template<typename _Up>
  449:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	using rebind_traits = allocator_traits<allocator<_Up>>;
  450:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 63
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 63
 
 
  451:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****       /**
@@ -3778,7 +3778,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  100:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****       // NB: __n is permitted to be 0.  The C++ standard says nothing
  101:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****       // about what the return value is when __n == 0.
  102:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****       _GLIBCXX_NODISCARD _Tp*
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 64
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 64
 
 
  103:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h ****       allocate(size_type __n, const void* = static_cast<const void*>(0))
@@ -3838,7 +3838,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  870              	.LBE745:
  871              	.LBE746:
  872              	.LBE747:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 65
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 65
 
 
  873              	.LBE742:
@@ -3898,7 +3898,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  918              	.LFE3176:
  920              		.global	_ZN13SerialLibraryD1Ev
  921              		.thumb_set _ZN13SerialLibraryD1Ev,_ZN13SerialLibraryD2Ev
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 66
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 66
 
 
  922              		.section	.text._ZN13SerialLibrary4InitEv,"ax",%progbits
@@ -3958,7 +3958,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   35:./libDaisy//src/daisy_seed.h ****     can be initialized using their specific initializers within libdaisy
   36:./libDaisy//src/daisy_seed.h ****     for a specific application.
   37:./libDaisy//src/daisy_seed.h ****     */
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 67
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 67
 
 
   38:./libDaisy//src/daisy_seed.h ****     void Init(bool boost = false);
@@ -4018,7 +4018,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   92:./libDaisy//src/daisy_seed.h ****     void SetAudioBlockSize(size_t blocksize);
   93:./libDaisy//src/daisy_seed.h **** 
   94:./libDaisy//src/daisy_seed.h ****     /** Returns the number of samples per channel in a block of audio. */
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 68
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 68
 
 
   95:./libDaisy//src/daisy_seed.h ****     size_t AudioBlockSize();
@@ -4078,7 +4078,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  952 0002 0446     		mov	r4, r0
  953              	.LBB758:
  954              	.LBB757:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 69
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 69
 
 
  955              		.loc 10 135 22 view .LVU210
@@ -4138,7 +4138,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  165:./libDaisy//src/util/FIFO.h **** 
  1005              		.loc 2 165 10 view .LVU219
  165:./libDaisy//src/util/FIFO.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 70
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 70
 
 
  1006              		.loc 2 165 10 is_stmt 0 view .LVU220
@@ -4198,7 +4198,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1053              	.LBE769:
   28:library/serial_library.cpp **** int SerialLibrary::GetChar() {
  1054              		.loc 1 28 30 view .LVU230
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 71
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 71
 
 
  1055 000a 10B4     		push	{r4}
@@ -4258,7 +4258,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1099              		.p2align 2,,3
  1100              		.global	_ZN13SerialLibrary12CheckCommandEPKc
  1101              		.syntax unified
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 72
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 72
 
 
  1102              		.thumb
@@ -4318,7 +4318,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1145 000e 0E46     		mov	r6, r1
   37:library/serial_library.cpp ****     while (HasData()) {
  1146              		.loc 1 37 19 view .LVU254
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 73
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 73
 
 
  1147 0010 07D1     		bne	.L75
@@ -4378,7 +4378,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1190              	.LBB1133:
   29:library/serial_library.cpp ****     if (msg_fifo_.IsEmpty()) {
  1191              		.loc 1 29 5 view .LVU266
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 74
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 74
 
 
   32:library/serial_library.cpp ****     return msg_fifo_.PopFront();
@@ -4438,7 +4438,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1231              	.LBB1093:
  1232              	.LBI1093:
  671:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { _M_dispose(); }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 75
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 75
 
 
  672:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -4498,7 +4498,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  726:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	    _M_set_length(0);
  727:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  }
  728:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	// Replace allocator if POCMA is true.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 76
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 76
 
 
  729:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	std::__alloc_on_move(_M_get_allocator(), __str._M_get_allocator());
@@ -4558,7 +4558,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  783:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
  784:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif // C++11
  785:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 77
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 77
 
 
  786:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201703L
@@ -4618,7 +4618,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  840:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  order.
  841:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
  842:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       reverse_iterator
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 78
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 78
 
 
  843:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       rbegin() _GLIBCXX_NOEXCEPT
@@ -4678,7 +4678,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  897:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return const_reverse_iterator(this->end()); }
  898:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  899:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 79
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 79
 
 
  900:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Returns a read-only (constant) reverse iterator that points
@@ -4738,7 +4738,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  954:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  955:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
  956:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       ///  A non-binding request to reduce capacity() to size().
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 80
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 80
 
 
  957:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       void
@@ -4798,7 +4798,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1011:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Returns true if the %string is empty.  Equivalent to 
 1012:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  <code>*this == ""</code>.
 1013:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 81
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 81
 
 
 1014:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _GLIBCXX_NODISCARD bool
@@ -4858,7 +4858,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1068:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       at(size_type __n) const
 1069:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
 1070:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	if (__n >= this->size())
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 82
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 82
 
 
 1071:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  __throw_out_of_range_fmt(__N("basic_string::at: __n "
@@ -4918,7 +4918,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1125:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
 1126:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       reference
 1127:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       back() noexcept
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 83
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 83
 
 
 1128:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
@@ -4978,7 +4978,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1179:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __l  The initializer_list of characters to be appended.
 1180:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1181:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 84
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 84
 
 
 1182:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       basic_string&
@@ -5038,7 +5038,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1236:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_string_len(__s, __n);
 1237:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_M_check_length(size_type(0), __n, "basic_string::append");
 1238:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return _M_append(__s, __n);
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 85
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 85
 
 
 1239:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
@@ -5098,7 +5098,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1293:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****         append(_InputIterator __first, _InputIterator __last)
 1294:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****         { return this->replace(end(), end(), __first, __last); }
 1295:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 86
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 86
 
 
 1296:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201703L
@@ -5158,7 +5158,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1250              	.LBE1101:
  1251              	.LBB1103:
  1252              	.LBB1104:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 87
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 87
 
 
  195:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -5218,7 +5218,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1294              	.LBE1107:
  979:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	                     : _M_allocated_capacity;
  1295              		.loc 5 979 23 view .LVU297
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 88
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 88
 
 
  1296 004e 14BF     		ite	ne
@@ -5278,7 +5278,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1340              	.LBB1120:
  191:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
  1341              		.loc 5 191 26 view .LVU309
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 89
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 89
 
 
  1342 0064 C4F81C74 		str	r7, [r4, #1052]
@@ -5338,7 +5338,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  165:./libDaisy//src/util/FIFO.h **** 
  1383              		.loc 2 165 48 is_stmt 0 view .LVU323
  1384 006c 2369     		ldr	r3, [r4, #16]
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 90
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 90
 
 
  1385              	.LVL80:
@@ -5398,7 +5398,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1429              	.LBB1137:
  1430              	.LBB1130:
  1431              	.LBB1129:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 91
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 91
 
 
  1432              	.LBB1128:
@@ -5458,7 +5458,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1477              		.file 11 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h"
    1:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h **** // Allocator traits -*- C++ -*-
    2:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 92
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 92
 
 
    3:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h **** // Copyright (C) 2011-2020 Free Software Foundation, Inc.
@@ -5518,7 +5518,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   57:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h ****     typedef typename _Base_type::pointer            pointer;
   58:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h ****     typedef typename _Base_type::const_pointer      const_pointer;
   59:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h ****     typedef typename _Base_type::size_type          size_type;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 93
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 93
 
 
   60:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/alloc_traits.h ****     typedef typename _Base_type::difference_type    difference_type;
@@ -5578,7 +5578,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  505:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h ****       template<typename _Up, typename... _Args>
  506:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	static _GLIBCXX20_CONSTEXPR void
  507:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 	construct(allocator_type& __a __attribute__((__unused__)), _Up* __p,
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 94
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 94
 
 
  508:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/alloc_traits.h **** 		  _Args&&... __args)
@@ -5638,7 +5638,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  167:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/allocator.h ****       : __allocator_base<_Tp>(__a) { }
  1484              		.loc 7 167 7 view .LVU345
  1485              	.LBB1157:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 95
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 95
 
 
  1486              	.LBI1157:
@@ -5698,7 +5698,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   37:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h **** 
   38:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h **** namespace std _GLIBCXX_VISIBILITY(default)
   39:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h **** {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 96
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 96
 
 
   40:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h **** _GLIBCXX_BEGIN_NAMESPACE_VERSION
@@ -5758,7 +5758,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
   94:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h ****   /**
   95:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h ****    *  @brief  Convert a value to an rvalue.
   96:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h ****    *  @param  __t  A thing of arbitrary type.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 97
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 97
 
 
   97:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/move.h ****    *  @return The parameter cast to an rvalue-reference to allow moving it.
@@ -5818,7 +5818,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1542              	.LBE1174:
  1543              	.LBE1173:
  1544              	.LBE1172:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 98
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 98
 
 
  1545              	.LBE1171:
@@ -5878,7 +5878,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1587              	.LBB1175:
  255:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	}
  1588              		.loc 5 255 23 is_stmt 0 view .LVU372
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 99
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 99
 
 
  1589 00a8 FFF7FEFF 		bl	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_itera
@@ -5938,7 +5938,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1345:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1346:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
 1347:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       basic_string&
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 100
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 100
 
 
 1348:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       assign(const basic_string& __str)
@@ -5998,7 +5998,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1402:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 1403:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Set value to a substring of a string.
 1404:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __str  The string to use.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 101
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 101
 
 
 1405:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __pos  Index of the first character of str.
@@ -6058,7 +6058,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1459:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1460:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
 1461:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  This function sets the value of this string to @a __n copies of
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 102
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 102
 
 
 1462:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  character @a __c.
@@ -6118,7 +6118,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1516:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1517:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
 1518:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       template<typename _Tp>
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 103
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 103
 
 
 1519:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_If_sv<_Tp, basic_string&>
@@ -6178,7 +6178,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1573:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
 1574:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 1575:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Insert a range of characters.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 104
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 104
 
 
 1576:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __p  Const_iterator referencing location in string to
@@ -6238,7 +6238,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1630:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       void
 1631:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       insert(iterator __p, initializer_list<_CharT> __l)
 1632:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 105
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 105
 
 
 1633:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(__p >= begin() && __p <= end());
@@ -6298,7 +6298,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1687:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
 1688:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a __pos is beyond the end of this
 1689:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  string.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 106
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 106
 
 
 1690:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
@@ -6358,7 +6358,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1744:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 1745:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 1746:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Insert one character.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 107
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 107
 
 
 1747:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __p  Iterator referencing position in string to insert at.
@@ -6418,7 +6418,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1801:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif // C++17
 1802:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 1803:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 108
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 108
 
 
 1804:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Remove characters.
@@ -6478,7 +6478,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1858:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
 1859:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(__first >= begin() && __first <= __last
 1860:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 				 && __last <= end());
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 109
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 109
 
 
 1861:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****         const size_type __pos = __first - begin();
@@ -6538,7 +6538,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1655              		.loc 1 60 41 view .LVU390
  1656 00b8 5B5C     		ldrb	r3, [r3, r1]	@ zero_extendqisi2
   60:library/serial_library.cpp ****         while (!cmd.empty() && (cmd.back() == ' ' || cmd.back() == '\t')) {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 110
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 110
 
 
  1657              		.loc 1 60 51 view .LVU391
@@ -6598,7 +6598,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1887:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __str  String to insert.
 1888:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 1889:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a pos is beyond the end of this
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 111
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 111
 
 
 1890:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  string.
@@ -6658,7 +6658,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 1944:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  thrown.  The value of the string doesn't change if an error
 1945:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  is thrown.
 1946:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 112
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 112
 
 
 1947:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       basic_string&
@@ -6718,7 +6718,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2001:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 2002:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Replace range of characters with string.
 2003:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __i1  Iterator referencing start of range to replace.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 113
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 113
 
 
 2004:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __i2  Iterator referencing end of range to replace.
@@ -6778,7 +6778,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2058:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
 2059:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_string(__s);
 2060:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return this->replace(__i1, __i2, __s, traits_type::length(__s));
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 114
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 114
 
 
 2061:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
@@ -6838,7 +6838,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2115:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       template<class _InputIterator>
 2116:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #ifdef _GLIBCXX_DISAMBIGUATE_REPLACE_INST
 2117:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****         typename __enable_if_not_native_iterator<_InputIterator>::__type
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 115
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 115
 
 
 2118:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #else
@@ -6898,7 +6898,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2172:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 				 && __i2 <= end());
 2173:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_valid_range(__k1, __k2);
 2174:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return this->replace(__i1 - begin(), __i2 - __i1,
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 116
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 116
 
 
 2175:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 			     __k1.base(), __k2 - __k1);
@@ -6958,7 +6958,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2229:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  return this->replace(__pos1, __n1,
 2230:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	      __sv.data()
 2231:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	      + std::__sv_check(__sv.size(), __pos2, "basic_string::replace"),
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 117
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 117
 
 
 2232:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	      std::__sv_limit(__sv.size(), __pos2, __n2));
@@ -7018,7 +7018,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2286:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
 2287:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Copies up to @a __n characters starting at @a __pos into the
 2288:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  C string @a __s.  If @a __pos is %greater than size(),
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 118
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 118
 
 
 2289:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  out_of_range is thrown.
@@ -7078,7 +7078,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2343:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       get_allocator() const _GLIBCXX_NOEXCEPT
 2344:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return _M_get_allocator(); }
 2345:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 119
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 119
 
 
 2346:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
@@ -7138,7 +7138,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2400:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Starting from @a __pos, searches forward for the value of @a
 2401:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  __s within this string.  If found, returns the index where
 2402:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  it begins.  If not found, returns npos.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 120
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 120
 
 
 2403:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
@@ -7198,7 +7198,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2457:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Find last position of a C substring.
 2458:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __s  C string to locate.
 2459:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __pos  Index of character to search back from.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 121
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 121
 
 
 2460:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __n  Number of characters from s to search for.
@@ -7258,7 +7258,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2514:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       find_first_of(const basic_string& __str, size_type __pos = 0) const
 2515:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _GLIBCXX_NOEXCEPT
 2516:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return this->find_first_of(__str.data(), __pos, __str.size()); }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 122
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 122
 
 
 2517:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -7318,7 +7318,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2571:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Find position of a character.
 2572:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __c  Character to locate.
 2573:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __pos  Index of character to search from (default 0).
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 123
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 123
 
 
 2574:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Index of first occurrence.
@@ -7378,7 +7378,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2628:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  first @a __n characters of @a __s within this string.  If
 2629:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  found, returns the index where it was found.  If not found,
 2630:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  returns npos.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 124
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 124
 
 
 2631:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
@@ -7438,7 +7438,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2685:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201703L
 2686:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 2687:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Find position of a character not in a string_view.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 125
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 125
 
 
 2688:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __svt  A object convertible to string_view containing
@@ -7498,7 +7498,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2742:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
 2743:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Starting from @a __pos, searches forward for a character
 2744:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  other than @a __c within this string.  If found, returns the
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 126
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 126
 
 
 2745:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  index where it was found.  If not found, returns npos.
@@ -7558,7 +7558,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2799:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 		       size_type __n) const _GLIBCXX_NOEXCEPT;
 2800:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 2801:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Find last position of a character not in C string.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 127
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 127
 
 
 2802:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __s  C string containing characters to avoid.
@@ -7618,7 +7618,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2856:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  __str, 0 if their values are equivalent, or > 0 if this
 2857:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  string is ordered after @a __str.  Determines the effective
 2858:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  length rlen of the strings to compare as the smallest of
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 128
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 128
 
 
 2859:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  size() and str.size().  The function then compares the two
@@ -7678,7 +7678,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2913:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  return __sv_type(*this).substr(__pos, __n).compare(__sv);
 2914:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	}
 2915:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 129
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 129
 
 
 2916:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
@@ -7738,7 +7738,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 2970:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  characters starting at @a __pos1.  Form the substring of @a
 2971:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  __str from the @a __n2 characters starting at @a __pos2.
 2972:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Returns an integer < 0 if this substring is ordered before
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 130
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 130
 
 
 2973:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  the substring of @a __str, 0 if their values are equivalent,
@@ -7798,7 +7798,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3027:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 3028:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 3029:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Compare substring against a character %array.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 131
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 131
 
 
 3030:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __pos  Index of first character of substring.
@@ -7858,7 +7858,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3084:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****     };
 3085:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** _GLIBCXX_END_NAMESPACE_CXX11
 3086:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #else  // !_GLIBCXX_USE_CXX11_ABI
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 132
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 132
 
 
 3087:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****   // Reference-counted COW string implentation
@@ -7918,7 +7918,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3141:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****    *  Note that the _Rep object is a POD so that you can have a
 3142:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****    *  static <em>empty string</em> _Rep object already @a constructed before
 3143:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****    *  static constructors have run.  The reference-count encoding is
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 133
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 133
 
 
 3144:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****    *  chosen so that a 0 indicates one reference, so you never try to
@@ -7978,7 +7978,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3198:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 3199:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       struct _Rep_base
 3200:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 134
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 134
 
 
 3201:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	size_type		_M_length;
@@ -8038,7 +8038,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3255:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 3256:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****         bool
 3257:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_M_is_shared() const _GLIBCXX_NOEXCEPT
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 135
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 135
 
 
 3258:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	{
@@ -8098,7 +8098,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3312:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if _GLIBCXX_FULLY_DYNAMIC_STRING == 0
 3313:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  if (__builtin_expect(this != &_S_empty_rep(), false))
 3314:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 136
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 136
 
 
 3315:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	    {
@@ -8158,7 +8158,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3369:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // Data Members (private):
 3370:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       mutable _Alloc_hider	_M_dataplus;
 3371:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 137
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 137
 
 
 3372:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _CharT*
@@ -8218,7 +8218,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3426:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // True if _Rep and source do not overlap.
 3427:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       bool
 3428:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _M_disjunct(const _CharT* __s) const _GLIBCXX_NOEXCEPT
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 138
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 138
 
 
 3429:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
@@ -8278,7 +8278,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3483:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _S_copy_chars(_CharT* __p, _CharT* __k1, _CharT* __k2) _GLIBCXX_NOEXCEPT
 3484:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { _M_copy(__p, __k1, __k2 - __k1); }
 3485:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 139
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 139
 
 
 3486:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       static void
@@ -8338,7 +8338,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3540:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 3541:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Only internally used: Construct string from a string view
 3542:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *          wrapper.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 140
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 140
 
 
 3543:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param  __svw  string view wrapper.
@@ -8398,7 +8398,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3597:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
 3598:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       basic_string(const basic_string& __str, size_type __pos,
 3599:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 		   size_type __n);
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 141
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 141
 
 
 3600:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
@@ -8458,7 +8458,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3654:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if _GLIBCXX_FULLY_DYNAMIC_STRING == 0
 3655:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       noexcept // FIXME C++11: should always be noexcept.
 3656:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 142
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 142
 
 
 3657:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       : _M_dataplus(std::move(__str._M_dataplus))
@@ -8518,7 +8518,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3711:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       template<typename _Tp, typename = _If_sv<_Tp, void>>
 3712:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	basic_string(const _Tp& __t, size_type __pos, size_type __n,
 3713:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 		     const _Alloc& __a = _Alloc())
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 143
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 143
 
 
 3714:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	: basic_string(_S_to_string_view(__t).substr(__pos, __n), __a) { }
@@ -8578,7 +8578,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3768:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  The contents of @a str are moved into this string (without copying).
 3769:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @a str is a valid, but unspecified string.
 3770:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        **/
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 144
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 144
 
 
 3771:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       basic_string&
@@ -8638,7 +8638,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3825:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
 3826:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       const_iterator
 3827:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       begin() const _GLIBCXX_NOEXCEPT
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 145
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 145
 
 
 3828:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return const_iterator(_M_data()); }
@@ -8698,7 +8698,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3882:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       rend() const _GLIBCXX_NOEXCEPT
 3883:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return const_reverse_iterator(this->begin()); }
 3884:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 146
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 146
 
 
 3885:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
@@ -8758,7 +8758,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3939:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 3940:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 3941:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Resizes the %string to the specified number of characters.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 147
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 147
 
 
 3942:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param  __n  Number of characters the %string should contain.
@@ -8818,7 +8818,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 3996:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @throw  std::length_error  If @a __res_arg exceeds @c max_size().
 3997:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
 3998:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  This function attempts to reserve enough memory for the
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 148
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 148
 
 
 3999:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  %string to hold the specified number of characters.  If the
@@ -8878,7 +8878,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4053:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       const_reference
 4054:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       operator[] (size_type __pos) const _GLIBCXX_NOEXCEPT
 4055:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 149
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 149
 
 
 4056:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_assert(__pos <= size());
@@ -8938,7 +8938,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4110:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  first checked that it is in the range of the string.  The function
 4111:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  throws out_of_range if the check fails.  Success results in
 4112:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  unsharing the string.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 150
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 150
 
 
 4113:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
@@ -8998,7 +8998,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4167:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_assert(!empty());
 4168:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return operator[](this->size() - 1);
 4169:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 151
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 151
 
 
 4170:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif
@@ -9058,7 +9058,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4224:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif // C++17
 4225:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 4226:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 152
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 152
 
 
 4227:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Append a string to this string.
@@ -9118,7 +9118,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4281:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 4282:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
 4283:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 153
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 153
 
 
 4284:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Append an initializer_list of characters.
@@ -9178,7 +9178,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4338:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 4339:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 4340:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Append a single character.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 154
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 154
 
 
 4341:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __c  Character to append.
@@ -9238,7 +9238,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4395:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 			    + __str._M_check(__pos, "basic_string::assign"),
 4396:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 			    __str._M_limit(__pos, __n)); }
 4397:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 155
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 155
 
 
 4398:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
@@ -9298,7 +9298,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4452:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 4453:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
 4454:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 156
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 156
 
 
 4455:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Set value to an initializer_list of characters.
@@ -9358,7 +9358,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4509:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       void
 4510:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       insert(iterator __p, size_type __n, _CharT __c)
 4511:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {	this->replace(__p, __p, __n, __c);  }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 157
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 157
 
 
 4512:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -9418,7 +9418,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4566:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __n  Number of characters to insert.
 4567:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
 4568:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 158
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 158
 
 
 4569:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a pos1 > size() or
@@ -9478,7 +9478,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4623:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_string(__s);
 4624:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return this->insert(__pos, __s, traits_type::length(__s));
 4625:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 159
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 159
 
 
 4626:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -9538,7 +9538,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4680:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	insert(size_type __pos, const _Tp& __svt)
 4681:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	{
 4682:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  __sv_type __sv = __svt;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 160
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 160
 
 
 4683:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  return this->insert(__pos, __sv.data(), __sv.size());
@@ -9598,7 +9598,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4737:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       iterator
 4738:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       erase(iterator __position)
 4739:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 161
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 161
 
 
 4740:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(__position >= _M_ibegin()
@@ -9658,7 +9658,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4794:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 4795:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 4796:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Replace characters with value from another string.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 162
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 162
 
 
 4797:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __pos1  Index of first character to replace.
@@ -9718,7 +9718,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4851:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Removes the characters in the range [__pos,__pos + __n1)
 4852:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  from this string.  In place, the characters of @a __s are
 4853:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  inserted.  If @a __pos is beyond end of string, out_of_range
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 163
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 163
 
 
 4854:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  is thrown.  If the length of result exceeds max_size(),
@@ -9778,7 +9778,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4908:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __s  C string value to insert.
 4909:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __n  Number of characters from s to insert.
 4910:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Reference to this string.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 164
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 164
 
 
 4911:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
@@ -9838,7 +9838,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 4965:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 				 && __i2 <= _M_iend());
 4966:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return _M_replace_aux(__i1 - _M_ibegin(), __i2 - __i1, __n, __c);
 4967:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 165
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 165
 
 
 4968:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -9898,7 +9898,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5022:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(_M_ibegin() <= __i1 && __i1 <= __i2
 5023:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 				 && __i2 <= _M_iend());
 5024:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_valid_range(__k1, __k2);
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 166
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 166
 
 
 5025:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return this->replace(__i1 - _M_ibegin(), __i2 - __i1,
@@ -9958,7 +9958,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5079:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __n1    The number of characters to replace.
 5080:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __svt   The object convertible to string_view to insert from.
 5081:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __pos2  The position in the string_view to insert from.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 167
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 167
 
 
 5082:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __n2    The number of characters to insert.
@@ -10018,7 +10018,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5136:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       // requires special behaviour if _InIter is an integral type
 5137:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       template<class _InIterator>
 5138:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****         static _CharT*
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 168
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 168
 
 
 5139:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****         _S_construct_aux(_InIterator __beg, _InIterator __end,
@@ -10078,7 +10078,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5193:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Copies up to @a __n characters starting at @a __pos into the
 5194:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  C string @a __s.  If @a __pos is %greater than size(),
 5195:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  out_of_range is thrown.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 169
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 169
 
 
 5196:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
@@ -10138,7 +10138,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5250:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Return copy of allocator used to construct this string.
 5251:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
 5252:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       allocator_type
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 170
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 170
 
 
 5253:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       get_allocator() const _GLIBCXX_NOEXCEPT
@@ -10198,7 +10198,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5307:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __pos  Index of character to search from (default 0).
 5308:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Index of first occurrence.
 5309:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 171
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 171
 
 
 5310:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Starting from @a __pos, searches forward for @a __c within
@@ -10258,7 +10258,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5364:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 5365:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 5366:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Find last position of a C string.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 172
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 172
 
 
 5367:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __s  C string to locate.
@@ -10318,7 +10318,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5421:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  npos.
 5422:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
 5423:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       size_type
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 173
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 173
 
 
 5424:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       find_first_of(const basic_string& __str, size_type __pos = 0) const
@@ -10378,7 +10378,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5478:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201703L
 5479:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
 5480:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @brief  Find position of a character of a string_view.
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 174
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 174
 
 
 5481:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @param __svt  An object convertible to string_view containing
@@ -10438,7 +10438,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5535:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  characters of @a __s within this string.  If found, returns
 5536:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  the index where it was found.  If not found, returns npos.
 5537:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 175
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 175
 
 
 5538:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       size_type
@@ -10498,7 +10498,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5592:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       _GLIBCXX_NOEXCEPT
 5593:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return this->find_first_not_of(__str.data(), __pos, __str.size()); }
 5594:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 176
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 176
 
 
 5595:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       /**
@@ -10558,7 +10558,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5649:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Index of first occurrence.
 5650:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        */
 5651:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       template<typename _Tp>
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 177
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 177
 
 
 5652:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	_If_sv<_Tp, size_type>
@@ -10618,7 +10618,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5706:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
 5707:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	__glibcxx_requires_string(__s);
 5708:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	return this->find_last_not_of(__s, __pos, traits_type::length(__s));
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 178
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 178
 
 
 5709:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       }
@@ -10678,7 +10678,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5763:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Integer < 0, 0, or > 0.
 5764:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
 5765:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Returns an integer < 0 if this string is ordered before @a
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 179
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 179
 
 
 5766:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  __str, 0 if their values are equivalent, or > 0 if this
@@ -10738,7 +10738,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5820:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	noexcept(is_same<_Tp, __sv_type>::value)
 5821:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	{
 5822:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  __sv_type __sv = __svt;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 180
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 180
 
 
 5823:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  return __sv_type(*this).substr(__pos, __n).compare(__sv);
@@ -10798,7 +10798,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5877:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  @return  Integer < 0, 0, or > 0.
 5878:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *
 5879:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  Form the substring of this string from the @a __n1
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 181
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 181
 
 
 5880:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****        *  characters starting at @a __pos1.  Form the substring of @a
@@ -10858,7 +10858,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5934:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       */
 5935:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       int
 5936:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       compare(size_type __pos, size_type __n1, const _CharT* __s) const;
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 182
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 182
 
 
 5937:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -10918,7 +10918,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 5991:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 5992:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** # ifdef _GLIBCXX_TM_TS_INTERNAL
 5993:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       friend void
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 183
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 183
 
 
 5994:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       ::_txnal_cow_string_C1_for_exceptions(void* that, const char* s,
@@ -10978,7 +10978,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 6048:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       __str.append(__rhs);
 6049:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       return __str;
 6050:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****     }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 184
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 184
 
 
 6051:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -11038,7 +11038,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 6105:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
 6106:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #if __cplusplus >= 201103L
 6107:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****   template<typename _CharT, typename _Traits, typename _Alloc>
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 185
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 185
 
 
 6108:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****     inline basic_string<_CharT, _Traits, _Alloc>
@@ -11098,7 +11098,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
 6162:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	      _CharT __rhs)
 6163:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****     { return std::move(__lhs.append(1, __rhs)); }
 6164:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 186
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 186
 
 
 6165:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -11158,7 +11158,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  920:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return _M_string_length; }
  1712              		.loc 5 920 7 view .LVU408
  920:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return _M_string_length; }
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 187
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 187
 
 
  1713              		.loc 5 920 7 is_stmt 0 view .LVU409
@@ -11218,7 +11218,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1756              		.loc 5 194 7 is_stmt 1 view .LVU420
  194:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return _M_dataplus._M_p; }
  1757              		.loc 5 194 7 is_stmt 0 view .LVU421
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 188
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 188
 
 
  1758              	.LBE1214:
@@ -11278,7 +11278,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1800              	.LBE1221:
  239:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 	  _M_destroy(_M_allocated_capacity);
  1801              		.loc 5 239 2 view .LVU434
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 189
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 189
 
 
  1802 00f2 A842     		cmp	r0, r5
@@ -11338,7 +11338,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1849              	.LBE1232:
  1850              	.LBE1218:
  1851              	.LBE1217:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 190
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 190
 
 
  1852              	.LBE1148:
@@ -11398,7 +11398,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1897              	.LBI1000:
   82:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h **** 
  1898              		.loc 8 82 7 view .LVU457
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 191
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 191
 
 
   82:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/ext/new_allocator.h **** 
@@ -11458,7 +11458,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1944              	.LBB1016:
  1945              	.LBB1011:
  1946              	.LBB1008:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 192
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 192
 
 
  168:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** #endif
@@ -11518,7 +11518,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  1991              		.loc 5 194 7 is_stmt 1 view .LVU479
  194:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return _M_dataplus._M_p; }
  1992              		.loc 5 194 7 is_stmt 0 view .LVU480
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 193
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 193
 
 
  1993              	.LBE1028:
@@ -11578,7 +11578,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2035              		.loc 5 195 28 view .LVU492
  2036 0120 D4F81824 		ldr	r2, [r4, #1048]
  2037              	.LBE1037:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 194
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 194
 
 
  2038              	.LBE1036:
@@ -11638,7 +11638,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2078              	.LBE1044:
  2079              	.LBE1043:
  2080              	.LBE1042:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 195
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 195
 
 
   47:library/serial_library.cpp ****             while (!cmd.empty() && (cmd.back() == ' ' || cmd.back() == '\t')) {
@@ -11698,7 +11698,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2123              		.loc 1 47 55 view .LVU518
  2124 0138 202B     		cmp	r3, #32
  2125 013a 01D0     		beq	.L100
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 196
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 196
 
 
  2126              	.LVL119:
@@ -11758,7 +11758,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2168              	.LBE1060:
  2169              	.LBE1059:
  2170              	.LBB1063:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 197
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 197
 
 
  2171              	.LBB1064:
@@ -11818,7 +11818,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2221              	.LBI1067:
  229:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       { return _M_data() == _M_local_data(); }
  2222              		.loc 5 229 7 view .LVU540
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 198
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 198
 
 
  2223              	.LBB1070:
@@ -11878,7 +11878,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2268              	.LBE1083:
  2269              	.LBB1084:
  2270              	.LBI1084:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 199
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 199
 
 
  158:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
@@ -11938,7 +11938,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2316              	.LBE1239:
  2317              	.LBB1241:
  2318              	.LBB1238:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 200
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 200
 
 
  191:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -11998,7 +11998,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2359              		.loc 5 195 28 is_stmt 0 view .LVU576
  2360 017c 0298     		ldr	r0, [sp, #8]
  2361              	.LVL132:
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 201
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 201
 
 
  195:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h **** 
@@ -12058,7 +12058,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2408              	.LBI1260:
  158:/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/basic_string.h ****       {
  2409              		.loc 5 158 14 is_stmt 1 view .LVU588
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 202
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 202
 
 
  2410              	.LBB1261:
@@ -12118,7 +12118,7 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2463              		.file 34 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/initializer_list"
  2464              		.file 35 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/stringfwd.h"
  2465              		.file 36 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h"
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 203
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 203
 
 
  2466              		.file 37 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/bits/predefined_ops.h
@@ -12156,37 +12156,37 @@ ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 1
  2498              		.file 69 "/Library/DaisyToolchain/0.2.0/arm/arm-none-eabi/include/c++/10.3.1/new"
  2499              		.file 70 "<built-in>"
  2500              		.file 71 "./libDaisy//src/dev/sr_595.h"
-ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s 			page 204
+ARM GAS  /var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s 			page 204
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 serial_library.cpp
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:19     .text._ZN13SerialLibrary11UsbCallbackEPhPm:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:26     .text._ZN13SerialLibrary11UsbCallbackEPhPm:0000000000000000 _ZN13SerialLibrary11UsbCallbackEPhPm
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:154    .text._ZN13SerialLibrary11UsbCallbackEPhPm:0000000000000054 $d
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:159    .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0.str1.4:0000000000000000 $d
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:163    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:169    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0:0000000000000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:537    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0:0000000000000064 $d
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:542    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:549    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000000 _ZN13SerialLibraryC2ERN5daisy9DaisySeedE
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:770    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000030 $d
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:549    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000000 _ZN13SerialLibraryC1ERN5daisy9DaisySeedE
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:777    .text._ZN13SerialLibraryD2Ev:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:784    .text._ZN13SerialLibraryD2Ev:0000000000000000 _ZN13SerialLibraryD2Ev
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:915    .text._ZN13SerialLibraryD2Ev:000000000000002c $d
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:784    .text._ZN13SerialLibraryD2Ev:0000000000000000 _ZN13SerialLibraryD1Ev
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:923    .text._ZN13SerialLibrary4InitEv:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:930    .text._ZN13SerialLibrary4InitEv:0000000000000000 _ZN13SerialLibrary4InitEv
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:982    .text._ZN13SerialLibrary4InitEv:000000000000001c $d
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:987    .text._ZN13SerialLibrary7HasDataEv:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:994    .text._ZN13SerialLibrary7HasDataEv:0000000000000000 _ZN13SerialLibrary7HasDataEv
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:1020   .text._ZN13SerialLibrary7GetCharEv:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:1027   .text._ZN13SerialLibrary7GetCharEv:0000000000000000 _ZN13SerialLibrary7GetCharEv
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:1098   .text._ZN13SerialLibrary12CheckCommandEPKc:0000000000000000 $t
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:1105   .text._ZN13SerialLibrary12CheckCommandEPKc:0000000000000000 _ZN13SerialLibrary12CheckCommandEPKc
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:2438   .bss._ZN13SerialLibrary9instance_E:0000000000000000 _ZN13SerialLibrary9instance_E
-/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccanUzJe.s:2434   .bss._ZN13SerialLibrary9instance_E:0000000000000000 $d
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:19     .text._ZN13SerialLibrary11UsbCallbackEPhPm:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:26     .text._ZN13SerialLibrary11UsbCallbackEPhPm:0000000000000000 _ZN13SerialLibrary11UsbCallbackEPhPm
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:154    .text._ZN13SerialLibrary11UsbCallbackEPhPm:0000000000000054 $d
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:159    .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0.str1.4:0000000000000000 $d
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:163    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:169    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0:0000000000000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:537    .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.0:0000000000000064 $d
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:542    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:549    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000000 _ZN13SerialLibraryC2ERN5daisy9DaisySeedE
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:770    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000030 $d
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:549    .text._ZN13SerialLibraryC2ERN5daisy9DaisySeedE:0000000000000000 _ZN13SerialLibraryC1ERN5daisy9DaisySeedE
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:777    .text._ZN13SerialLibraryD2Ev:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:784    .text._ZN13SerialLibraryD2Ev:0000000000000000 _ZN13SerialLibraryD2Ev
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:915    .text._ZN13SerialLibraryD2Ev:000000000000002c $d
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:784    .text._ZN13SerialLibraryD2Ev:0000000000000000 _ZN13SerialLibraryD1Ev
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:923    .text._ZN13SerialLibrary4InitEv:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:930    .text._ZN13SerialLibrary4InitEv:0000000000000000 _ZN13SerialLibrary4InitEv
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:982    .text._ZN13SerialLibrary4InitEv:000000000000001c $d
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:987    .text._ZN13SerialLibrary7HasDataEv:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:994    .text._ZN13SerialLibrary7HasDataEv:0000000000000000 _ZN13SerialLibrary7HasDataEv
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:1020   .text._ZN13SerialLibrary7GetCharEv:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:1027   .text._ZN13SerialLibrary7GetCharEv:0000000000000000 _ZN13SerialLibrary7GetCharEv
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:1098   .text._ZN13SerialLibrary12CheckCommandEPKc:0000000000000000 $t
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:1105   .text._ZN13SerialLibrary12CheckCommandEPKc:0000000000000000 _ZN13SerialLibrary12CheckCommandEPKc
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:2438   .bss._ZN13SerialLibrary9instance_E:0000000000000000 _ZN13SerialLibrary9instance_E
+/var/folders/3b/wwnq8dkd3pv49d6v3x9xry0m0000gn/T//ccooLPnb.s:2434   .bss._ZN13SerialLibrary9instance_E:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
